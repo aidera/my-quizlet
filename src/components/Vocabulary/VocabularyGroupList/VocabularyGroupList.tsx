@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import { FolderAddFilled } from '@ant-design/icons';
+import { Button, PageHeader } from 'antd';
 
 import { vocabularyAPI } from '../../../api/vocabulary';
 import { IVocabularyGroup } from '../../../models/vocabulary';
@@ -15,10 +17,21 @@ const VocabularyGroupList = () => {
   }, []);
 
   return (
-    <div className={styles.list}>
-      {groups?.map((group) => {
-        return <VocabularyGroupCard group={group} key={group.id} />;
-      })}
+    <div>
+      <PageHeader
+        title="Groups"
+        extra={[
+          <Button key="1" type="default" icon={<FolderAddFilled />}>
+            Add Group
+          </Button>,
+        ]}
+      />
+
+      <div className={styles.list}>
+        {groups?.map((group) => {
+          return <VocabularyGroupCard group={group} key={group.id} />;
+        })}
+      </div>
     </div>
   );
 };
