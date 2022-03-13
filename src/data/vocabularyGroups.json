@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "name": "Group name 1",
+    "termsCount": 40
+  },
+  {
+    "id": "2",
+    "name": "Group name 2",
+    "termsCount": 10
+  },
+  {
+    "id": "3",
+    "name": "Group name 3",
+    "termsCount": 11
+  },
+  {
+    "id": "4",
+    "name": "Group name 4",
+    "termsCount": 6
+  },
+  {
+    "id": "5",
+    "name": "Group name 5",
+    "termsCount": 8
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "groupId": "1",
+    "mainPhrase": "My fav 1",
+    "secondaryPhrase": "Мой фав 1",
+    "mainLanguage": "EN",
+    "secondaryLanguage": "RU"
+  },
+  {
+    "id": "2",
+    "groupId": "1",
+    "mainPhrase": "My fav 2",
+    "secondaryPhrase": "Мой фав 2",
+    "mainLanguage": "EN",
+    "secondaryLanguage": "RU"
+  },
+  {
+    "id": "3",
+    "groupId": "1",
+    "mainPhrase": "My fav 3",
+    "secondaryPhrase": "Мой фав 3",
+    "mainLanguage": "EN",
+    "secondaryLanguage": "RU"
+  }
+]
